@@ -36,7 +36,7 @@
         <textarea class="form-control" name="description"></textarea>
 
         <label class="form-label">Icône</label>
-        <input type="text" class="form-control" name="icone">
+        <input type="file" class="form-control" name="icone">
 
         <input type="submit" value="Ajouter catégorie" class="btn btn-primary my-2" name="ajouter">
     </form>

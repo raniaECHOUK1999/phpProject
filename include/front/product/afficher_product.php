@@ -22,7 +22,7 @@ foreach ($produits as $produit) {
             <div class="card-footer bg-white" style="z-index: 10">
                 <?php if (!empty($produit->discount)): ?>
                     <div class="h5"><span
-                                class="badge rounded-pill text-bg-danger"><strike> <?= $produit->prix ?></strike> <i
+                                class="badge rounded-pill text-bg-danger"> <?= $produit->prix ?> <i
                                     class="fa fa-solid fa-dollar"></i></span></div>
                     <div class="h5"><span
                                 class="badge rounded-pill text-bg-success">Solde : <?= calculerRemise($produit->prix, $produit->discount) ?> <i
